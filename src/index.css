@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+        url("./assets/fonts/roboto-regular-webfont.woff2") format('woff2'),
+        url("./assets/fonts/roboto-bold-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+        url("./assets/fonts/roboto-bold-webfont.woff2") format('woff2'),
+        url("./assets/fonts/roboto-bold-webfont.woff") format('woff');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    html {
+        font-family: 'Roboto', sans-serif;
+        scroll-behavior: smooth;
+    }
+}
+
+@layer components {
+    .hover_button:is(:hover,:focus) {
+        background: linear-gradient(to right,#FF5478,theme("colors.P_color_Tomato"));
+    }
+
+    .icon_list {
+        display: flex;
+        align-items: start;
+        gap: 1em;
+    }
+
+    .grid_area {
+        grid-template-areas: 'text img';
+    }
+
+    .grid_img {
+        grid-area: img;
+    }
+    
+    .grid_text {
+        grid-area: text;
+    }
+}
