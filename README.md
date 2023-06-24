@@ -25,7 +25,7 @@ This is a solution to the [Newsletter sign-up form with success message on Front
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [Easybank landing page using React and SCSS | Frontend Mentor](#)
+- Solution URL: [Newsletter sign-up form with success message using React and SCSS | Frontend Mentor](#)
 - Live Site URL: [https://newsletter-sign-up-johnmaizo.netlify.app/](https://newsletter-sign-up-johnmaizo.netlify.app/)
 
 <br>
